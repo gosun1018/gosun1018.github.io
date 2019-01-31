@@ -137,6 +137,7 @@ hr {
 .post-item {
   margin-bottom: 0.2em;
   display: block;
+  overflow: hidden;
 
   a {
     color: $action-color;
@@ -283,7 +284,7 @@ hr {
   .article-title {
     border-bottom: none !important;
 	float: left;
-	width: calc(100% - 77px);
+	width: calc(100% - 77px)!important;
   }
 
   .post-link {
