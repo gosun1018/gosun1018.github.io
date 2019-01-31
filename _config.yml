@@ -1,8 +1,8 @@
 # Site settings
 remote_theme : heiswayi/thinkspace
 
-title_left    : "SEON"
-title_right   : "space" # default: ""
+title_left    : "Seon"
+title_right   : "Space" # default: ""
 description   : "Minimalist Jekyll theme for technical writing blog."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://gosun1018.github.io/ # site url
