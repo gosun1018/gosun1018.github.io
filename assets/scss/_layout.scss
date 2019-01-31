@@ -266,7 +266,7 @@ hr {
 // This applies from 0px to 600px
 @media (max-width: 600px) {
   .date-label {
-    float: left !important;
+//    float: left !important;
     border: 0 !important;
     margin-left: -2px !important;
     margin-top: 2px;
@@ -274,13 +274,16 @@ hr {
   }
 
   .post-item {
-    border: 1px solid lighten($light-gray-color, 10%);
-    padding: 0 0.5em;
-    background: lighten($light-gray-color, 15%);
+//    border: 1px solid lighten($light-gray-color, 10%);
+//    padding: 0 0.5em;
+//    background: lighten($light-gray-color, 15%);
+	margin-bottom: 1em;
   }
 
   .article-title {
     border-bottom: none !important;
+	float: left;
+	width: calc(100% - 77px);
   }
 
   .post-link {
