@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> scroll header </title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.wrap{
+			width:500px;
+			margin:0 auto;
+		}
+		.header{
+			height:50px;
+			text-align:center;
+			font-size:16px;
+			line-height:48px;
+			box-sizing:border-box;
+		}
+		.header01{
+			width:100%;
+			background-color:#000;
+			border:1px solid #000;
+			color:#fff;
+			
+		}
+		.header02{
+			display:none;
+			position:fixed;
+			top:0;
+			width:500px;
+			background-color:#fff;
+			border:1px solid #dd4e42;
+			color:#dd4e42;
+		}
+		.cont{
+			width:100%;
+			height:400px;
+		}
+		.cont:nth-child(3){background-color:#ff794c;}
+		.cont:nth-child(4){background-color:#dcff73;}
+		.cont:nth-child(5){background-color:#73b9ff;}
+		.cont:nth-child(6){background-color:#19a15f;}
+		.cont:nth-child(7){background-color:#ff7396;}
+		.src-none{display:none;}
+		.tt{
+			width:40px;
+			height:40px;
+			position:fixed;
+			bottom:10%;
+			right:10%;
+			font-size:20px;
+			line-height:20px;
+			background-color:#0000b3;
+			color:#fff;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header header01">헤더다</div>
+		<div class="header header02">움직이는 헤더다</div>
+		
+		<div class="cont">1</div>
+		<div class="cont">2</div>
+		<div class="cont">3</div>
+		<div class="cont">4</div>
+		<div class="cont">5</div>
+		
+		
+	</div>
+	<script>
+		$(document).ready(function(){
+			$(document).scroll(function(){
+				var scrHeight = $(document).scrollTop();
+				
+				if(scrHeight >= 250){
+					$('.header02').fadeIn();
+				}else if(scrHeight < 250){
+					$('.header02').fadeOut();
+					
+					
+				}
+				
+			});
+		
+		//end
+		});
+	
+	
+	</script>
+</body>
+</html>
