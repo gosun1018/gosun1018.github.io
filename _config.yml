@@ -12,7 +12,7 @@ cover         : "" # image uri like logo/cover image for site seo
 google_analytics  : UA-XXXXX-XX
 twitter_username  : ""
 comments_enabled  : true # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : "gosun1018github"
+disqus_shortname  : "gosun1018-github-io"
 postshare_enabled : false
 
 # Build settings
