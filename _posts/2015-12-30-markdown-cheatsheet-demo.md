@@ -124,6 +124,8 @@ ___
 
 <div class="divider"></div>
 
+<del>some txt</del>
+
 ## Media
 
 ### YouTube Embedded Iframe
