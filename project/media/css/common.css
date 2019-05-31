@@ -104,7 +104,7 @@ body {
     float: left;
     width: 50px;
     margin-left: 5%;
-    background: url(/images/h_logo_icon.png) no-repeat left center;
+    background: url(../images/h_logo_icon.png) no-repeat left center;
     background-size: 40px;
 }
 .header01.scroll_down .h_logo a {
