@@ -200,6 +200,10 @@
 }
 
 /* post 콘텐츠 */
+.post {
+    margin-bottom: 8%;
+    border-bottom: 1px solid #ebebeb;
+}
 .post .post_heading_txt{
     border-bottom: 1px solid #ebebeb;
 }
@@ -210,21 +214,82 @@
     font-weight: bold;
     color: #414141;
 }
-.post_heading_txt .post_heading_info_box {
+.post_info_box {
     padding: 0 5% 10px;
     text-align: right;
 }
-.post_heading_txt .post_heading_info_box .item {
+.post_info_box .item {
     display: inline-block;
 }
-.post_heading_txt .post_heading_info_box .info {
+.post_info_box .info {
     padding: 5px 10px;
     font-size: 14px;
-    color: #aaa;
+    color: #747474;
     border: 1px solid #ddd;
     border-radius: 20px;
     background-color: transparent;
 }
-.post_heading_txt .post_heading_info_box .fa {
-    font-size: 16px;
+.post_info_box .icon {
+    height: 16px;
+    vertical-align: middle;
+}
+.post_body {
+    padding: 8% 5%;
+    line-height: 1.6;
+}
+.post_body img{
+    max-width: 100%;
+}
+/* post 댓글 */
+.post_comment_wrap {}
+.post_comment_wrap .comments_num {
+    margin: 0 5% 5%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #414141;
+}
+.post_comment_wrap .comments_num .num {
+    font-size: 1.15em;
+    color: #ea005e;
+}
+.post_comment_wrap .comments_list {
+    
+}
+.post_comment_wrap .comment {
+    padding: 3% 5%;
+    border-top: 1px solid #ebebeb;
+}
+.comment .comment_heading {
+    margin-bottom: 8px;
+}
+.comment .comment_heading .user_nick{
+    font-size: 14px;
+    font-weight: bold;
+    color: #414141;
+}
+.comment .comment_heading .user_img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.comment .comment_heading .user_img img {
+    width: 100%;
+    height: 100%;
+}
+.comment .comment_body {
+    line-height: 1.6;
+    font-size: 14px;
+}
+.comment .lab_best {
+    display: inline-block;
+    padding: 3px;
+    line-height: 1;
+    font-size: 10px;
+    vertical-align: middle;
+    border-radius: 3px;
+    background-color: #ea005e;
+    color: #fff;
 }

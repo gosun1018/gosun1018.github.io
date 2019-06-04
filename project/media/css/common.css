@@ -124,6 +124,7 @@ body {
     width: 100%;
     height: 50px; 
     background-color: #fff;
+    box-shadow: 0 3px 10px rgba(20,25,30,0.05);
 }
 .header02:after {
     content: '';
@@ -154,10 +155,6 @@ body {
 }
 .header02 .h_btn_box .icon{
     width: 100%;
-}
-/* header02 스크롤시 */
-.header02.scroll_down {
-    box-shadow: 0 3px 10px rgba(20,25,30,0.05);
 }
 
 /* 화면 하단 gnb */
