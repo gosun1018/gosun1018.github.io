@@ -2,7 +2,6 @@
 var elHeader01 = document.querySelector(".header01")
 var clScrolldown = 'scroll_down'
 
-var hasClScrolldown = elHeader01.classList.contains(clScrolldown)
 
 function headerClose(){
     elHeader01.classList.add(clScrolldown);
@@ -13,16 +12,19 @@ function headerOpen(){
 }
 
 function headerController(){
+    var hasClScrolldown = elHeader01.classList.contains(clScrolldown)
     var scrollHeight = window.pageYOffset;
     
     if(scrollHeight > 150 && !hasClScrolldown){
         headerClose();
-    }else{
+    }else if (scrollHeight <= 150 && hasClScrolldown){
         headerOpen();
     } 
 }
 
-window.addEventListener('scroll',headerController);
+if(elHeader01){
+    window.addEventListener('scroll',headerController);
+}
 
 // gnb_bottom
 // 스크롤을 내린다

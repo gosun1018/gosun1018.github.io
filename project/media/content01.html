@@ -78,11 +78,11 @@
                                 </button>
                             </li>
                             <li class="item">
-                                <button class="info">
+                                <a href="#comment" class="info">
                                     <!-- <i class="fa fa-comment-o"></i> -->
                                     <img src="images/icon_comments.svg" alt="댓글수" class="icon">
                                     <span class="num">180</span>
-                                </button>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -102,18 +102,51 @@
                             먼저, 표지에서 보여준 것처럼 &lt;나 혼자 산다&gt;에서 박나래가 즐겨 입는 ‘네트 패션’이에요! 바람 솔솔~ 시원한 여름을 잘 표현한 네트 패션은 바캉스룩이나 데일리룩 코디로 좋죠. 옷이 부담스럽다면 네트 백으로 포인트를 줘봐요!
                         </p>
                     </div>
+                    <div class="post_footer">
+                         <ul class="post_info_box">
+                            <li class="item">
+                                <button class="info">
+                                    <!-- <i class="fa fa-share-alt"></i> -->
+                                    <img src="images/icon_share.svg" alt="공유하기" class="icon">
+                                </button>
+                            </li>
+                            <li class="item">
+                                <button class="info">
+                                    <!-- <i class="fa fa-heart-o"></i> -->
+                                    <img src="images/icon_heart_o.svg" alt="좋아요수" class="icon">
+                                    <span class="num">2K</span>
+                                </button>
+                            </li>
+                            <li class="item">
+                                <button class="info">
+                                    <!-- <i class="fa fa-comment-o"></i> -->
+                                    <img src="images/icon_comments.svg" alt="댓글수" class="icon">
+                                    <span class="num">180</span>
+                                </button>
+                            </li>
+                        </ul>
+                        <ul class="post_pg_btn_box">
+                            <li class="item pg_prev"><a href=""><i class="fa fa-angle-left"></i> 이전</a></li>
+                            <li class="item pg_list"><a href=""><i class="fa fa-list-ul"></i> 목록</a></li>
+                            <li class="item pg_next"><a href="">다음 <i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
-            <section class="post_comment_wrap">
+            <section class="post_comment_wrap" id="comment">
                 <h2 class="comments_num">댓글 <span class="num">180</span></h2>
                 <div class="comment_write">
-                    
+                    <div class="comment_write_form">
+                        <textarea name="" id="commentWrite" class="inp_write"></textarea>
+                        <label for="commentWrite" class="label">댓글을 입력하세요</label>
+                        <button class="btn_comment_submit">등록</button>
+                    </div>
                 </div>
                 <div class="comment_list">
                     <div class="comment best">
                         <div class="comment_heading">
                             <h3 class="user_nick"><div class="user_img"> <img src="http://placehold.it/50x50" alt="좋은날 님의 프로필사진"></div>좋은날</h3>
-                            <span class="date">2019.06.04 00:00</span>
+                            <span class="date">19.06.04</span>
                             <button class="like">
                                 <i class="fa fa-heart-o"></i>
                                 <span class="blind">좋아요</span>
@@ -132,7 +165,7 @@
                     <div class="comment best">
                         <div class="comment_heading">
                             <h3 class="user_nick"><div class="user_img"> <img src="http://placehold.it/50x50" alt="song 님의 프로필사진"></div>Song</h3>
-                            <span class="date">2019.06.04 00:00</span>
+                            <span class="date"> 19.06.04</span>
                             <button class="like">
                                 <i class="fa fa-heart"></i>
                                 <span class="blind">좋아요</span>
@@ -151,7 +184,7 @@
                     <div class="comment best">
                         <div class="comment_heading">
                             <h3 class="user_nick"><div class="user_img"> <img src="http://placehold.it/50x50" alt="하늘보리 님의 프로필사진"></div>하늘보리</h3>
-                            <span class="date">2019.06.04 00:00</span>
+                            <span class="date"> 19.06.04</span>
                             <button class="like">
                                 <i class="fa fa-heart-o"></i>
                                 <span class="blind">좋아요</span>
@@ -167,10 +200,10 @@
                            <button class="btn btn_left btn_default">답글쓰기</button>
                         </div>
                     </div>
-                    <div class="comment">
+                    <div class="comment best">
                         <div class="comment_heading">
                             <h3 class="user_nick"><div class="user_img"> <img src="http://placehold.it/50x50" alt="날개없는 천사 님의 프로필사진"></div>날개없는 천사</h3>
-                            <span class="date">2019.06.04 00:00</span>
+                            <span class="date"> 19.06.04</span>
                             <button class="like">
                                 <i class="fa fa-heart-o"></i>
                                 <span class="blind">좋아요</span>
@@ -185,10 +218,10 @@
                            <button class="btn btn_left btn_default">답글쓰기</button>
                         </div>
                     </div>
-                    <div class="comment">
+                    <div class="comment best">
                         <div class="comment_heading">
                             <h3 class="user_nick"><div class="user_img"> <img src="http://placehold.it/50x50" alt="블랙도니 님의 프로필사진"></div>블랙도니</h3>
-                            <span class="date">2019.06.04 00:00</span>
+                            <span class="date"> 19.06.04</span>
                             <button class="like">
                                 <i class="fa fa-heart-o"></i>
                                 <span class="blind">좋아요</span>
@@ -215,5 +248,6 @@
 
     <!-- script -->
     <script src="js/layout.js"></script>
+    <script src="js/comment.js"></script>
 </body>
 </html>
