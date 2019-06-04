@@ -252,17 +252,27 @@
     font-size: 1.15em;
     color: #ea005e;
 }
-.post_comment_wrap .comments_list {
-    
+.post_comment_wrap .comment_list {
+    border-bottom: 1px solid #ebebeb;
 }
 .post_comment_wrap .comment {
-    padding: 3% 5%;
+    padding: 4% 5%;
     border-top: 1px solid #ebebeb;
 }
+.comment.best {
+    background-color: #f8f9fc;
+}
 .comment .comment_heading {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+}
+.comment .comment_heading:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 .comment .comment_heading .user_nick{
+    float: left;
+    margin-right: 5px;
     font-size: 14px;
     font-weight: bold;
     color: #414141;
@@ -271,6 +281,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
+    margin-right: 8px;
     vertical-align: middle;
     overflow: hidden;
     border-radius: 30px;
@@ -279,9 +290,31 @@
     width: 100%;
     height: 100%;
 }
+.comment .comment_heading .date {
+    float: left;
+    font-size: 12px;
+    line-height: 26px;
+    color: #747474;
+}
+.comment .comment_heading .like {
+    padding: 0;
+    float: right;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    line-height: 30px;
+    color: #747474;
+}
+.comment .comment_heading .like .fa {
+    font-size: 1.05em;
+    color: #ea005e;
+    vertical-align: middle;
+}
 .comment .comment_body {
+    margin: 8px 0 14px;
     line-height: 1.6;
     font-size: 14px;
+    color: #141414;
 }
 .comment .lab_best {
     display: inline-block;
@@ -292,4 +325,40 @@
     border-radius: 3px;
     background-color: #ea005e;
     color: #fff;
+}
+.comment .comment_btn_box:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.comment .comment_btn_box .btn {
+    font-size: 13px;
+    border-radius: 3px;
+    line-height: 1;
+    padding: 5px;
+}
+.comment .comment_btn_box .btn_left {
+    float: left;
+    margin-right: 5px;
+}
+.comment .comment_btn_box .btn_right {
+    float: right;
+    margin-left: 5px;
+}
+.comment .comment_btn_box .btn_default {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.comment .comment_btn_box .num {
+    color: #ea005e;
+}
+.post_comment_wrap .comment_more {
+    padding: 0 5%;
+    text-align: right;
+}
+.post_comment_wrap .comment_more .link{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #414141;
 }
