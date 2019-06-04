@@ -198,3 +198,33 @@
         margin-left: calc(50% - 390px);
     }
 }
+
+/* post 콘텐츠 */
+.post .post_heading_txt{
+    border-bottom: 1px solid #ebebeb;
+}
+.post_heading_txt .post_title{
+    padding: 16px 5%;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bold;
+    color: #414141;
+}
+.post_heading_txt .post_heading_info_box {
+    padding: 0 5% 10px;
+    text-align: right;
+}
+.post_heading_txt .post_heading_info_box .item {
+    display: inline-block;
+}
+.post_heading_txt .post_heading_info_box .info {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #aaa;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.post_heading_txt .post_heading_info_box .fa {
+    font-size: 16px;
+}
