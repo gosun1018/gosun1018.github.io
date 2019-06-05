@@ -70,7 +70,7 @@ body {
     color: #666;
 }
 .h_search_box .inp:focus {
-    box-shadow: inset 0 0 3px rgba(234, 1, 94, 0.25);
+    box-shadow: inset 0 0 3px rgba(255, 22, 89, 0.5);
     outline: none;
 }
 .h_search_box .inp::-ms-clear,
@@ -214,10 +214,10 @@ body {
     padding-bottom: 50px;
     box-sizing: border-box;
 }
-.header01~.main {
+.main01 {
     padding-top: 100px;
 }
-.header02~.main {
+.main02 {
     padding-top: 50px;
 }
 
@@ -245,4 +245,8 @@ body {
     color: #fff;
     border-radius: 20px;
     font-weight: bold;
+}
+
+.txt_point {
+    color: #ff1759;
 }

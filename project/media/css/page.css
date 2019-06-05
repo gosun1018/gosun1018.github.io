@@ -492,3 +492,46 @@
     transform: rotate(-45deg);
     vertical-align: super;
 }
+/* search 페이지 */
+.search_word_wrap {
+    min-height: calc(100vh - 100px);
+    background-color: #f4f5f7;
+    border: 1px solid transparent;
+}
+.search_word_sect {
+    position: relative;
+    padding: 0 5%;
+    margin-top: 8%;
+}
+.search_word_sect .search_word_tit {
+    font-size: 15px;
+    font-weight: bold;
+}
+.search_word_sect .search_word_list {
+    margin-top: 5%;
+    font-size: 0;
+}
+.search_word_sect .search_word {
+    display: inline-block;
+    margin: 0 8px 10px 0;
+    border: 1px solid #fd8cad;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.65);
+}
+.search_word_sect .search_word a {
+    display: inline-block;
+    padding: 7px 10px;
+    font-size: 14px;
+    color: #414141;
+}
+.search_word_sect .del_search_word {
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+.search_word_sect .del_search_word .btn_del {
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+    color: #666;
+}
