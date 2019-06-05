@@ -66,7 +66,8 @@ body {
     border: 1px solid #ebebeb;
     background-color: #fafbfd;
 }
-.h_search_box .inp:placeholder {
+.h_search_box .inp:placeholder,
+.h_search_box .inp .placeholder {
     color: #666;
 }
 .h_search_box .inp:focus {
@@ -92,12 +93,15 @@ body {
     transform: translateY(-50%);
     width: 32px;
     height: 34px;
+    padding: 1px 6px;
+    box-sizing: border-box;
+    line-height: 34px;
     border: none;
     background-color: transparent;
 }
 .h_search_box .btn img {
     width: 100%;
-    vertical-align: middle;
+    vertical-align: sub;
 }
 /* 스크롤 내렸을 때 header */
 .header01.scroll_down .h_logo {
@@ -246,7 +250,7 @@ body {
     border-radius: 20px;
     font-weight: bold;
 }
-
+/* txt_style */
 .txt_point {
     color: #ff1759;
 }
