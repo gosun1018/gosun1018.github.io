@@ -1,26 +1,31 @@
 @charset "UTF-8";
+
 /* 요소 숨김 처리 */
 .blind {
-    width:1px;
-    height:1px;
-    position:absolute;
-    overflow:hidden;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    overflow: hidden;
     clip: rect(1px 1px 1px 1px);
     clip: rect(1px, 1px, 1px, 1px);
 }
+
 body {
     min-width: 320px;
-    font-family: 'Apple SD Gothic Neo','Malgun Gothic',arial,sans-serif;
+    font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', arial, sans-serif;
     color: #141414;
 }
+
 .wrap {
     width: 100%;
 }
+
 .inner {
     width: 100%;
     max-width: 780px;
     margin: 0 auto;
 }
+
 /* header01 */
 .header01 {
     position: fixed;
@@ -30,26 +35,31 @@ body {
     width: 100%;
     box-sizing: border-box;
     background-color: #fff;
-    box-shadow: 0 3px 10px rgba(20,25,30,0.05);
+    box-shadow: 0 3px 10px rgba(20, 25, 30, 0.05);
 }
+
 .header01:after {
     content: '';
     display: block;
     clear: both;
 }
+
 .header01 .h_logo {
     height: 50px;
     padding: 8px 0;
     box-sizing: border-box;
     text-align: center;
 }
+
 .header01 .h_logo a {
     display: inline-block;
     height: 100%;
 }
+
 .header01 .h_logo .img_logo {
     height: 100%;
 }
+
 .header01 .h_search_box {
     position: relative;
     width: 94%;
@@ -57,6 +67,7 @@ body {
     padding: 8px 0;
     box-sizing: border-box;
 }
+
 .h_search_box .inp {
     width: 100%;
     padding: 8px 48px 8px 10px;
@@ -66,26 +77,33 @@ body {
     border: 1px solid #ebebeb;
     background-color: #fafbfd;
 }
-.h_search_box .inp:placeholder,
+/* , 로 연결하면 안되는 이유?? 왜죠*/
 .h_search_box .inp .placeholder {
     color: #666;
 }
+.h_search_box .inp:placeholder {
+    color: #666;
+}
+
 .h_search_box .inp:focus {
     box-shadow: inset 0 0 3px rgba(255, 22, 89, 0.5);
     outline: none;
 }
+
 .h_search_box .inp::-ms-clear,
 .h_search_box .inp::-ms-reveal {
-    display: none; 
-    width : 0; 
+    display: none;
+    width: 0;
     height: 0;
 }
+
 .h_search_box .inp::-webkit-search-decoration,
 .h_search_box .inp::-webkit-search-cancel-button,
 .h_search_box .inp::-webkit-search-results-button,
-.h_search_box .inp::-webkit-search-results-decoration { 
-    display: none; 
+.h_search_box .inp::-webkit-search-results-decoration {
+    display: none;
 }
+
 .h_search_box .btn {
     position: absolute;
     top: 50%;
@@ -99,10 +117,12 @@ body {
     border: none;
     background-color: transparent;
 }
+
 .h_search_box .btn img {
     width: 100%;
     vertical-align: sub;
 }
+
 /* 스크롤 내렸을 때 header */
 .header01.scroll_down .h_logo {
     float: left;
@@ -111,17 +131,21 @@ body {
     background: url(../images/h_logo_icon.svg) no-repeat left center;
     background-size: 34px;
 }
+
 .header01.scroll_down .h_logo a {
     width: 100%;
 }
+
 .header01.scroll_down .h_logo .img_logo {
     opacity: 0;
 }
+
 .header01.scroll_down .h_search_box {
     float: right;
     width: calc(90% - 50px);
     margin-right: 5%;
 }
+
 /* header02 */
 .header02 {
     position: fixed;
@@ -129,30 +153,35 @@ body {
     left: auto;
     z-index: 600;
     width: 100%;
-    height: 50px; 
+    height: 50px;
     background-color: #fff;
-    box-shadow: 0 3px 10px rgba(20,25,30,0.05);
+    box-shadow: 0 3px 10px rgba(20, 25, 30, 0.05);
 }
+
 .header02:after {
     content: '';
     display: block;
     clear: both;
 }
-.header02 .h_logo{
+
+.header02 .h_logo {
     float: left;
     height: 50px;
     padding: 8px 0;
     margin-left: 5%;
     box-sizing: border-box;
 }
-.header02 .h_logo img{
+
+.header02 .h_logo img {
     height: 100%;
 }
-.header02 .h_btn_box{
+
+.header02 .h_btn_box {
     float: right;
     margin-right: 5%;
 }
-.header02 .h_btn_box .item{
+
+.header02 .h_btn_box .item {
     float: left;
     width: 32px;
     height: 50px;
@@ -160,7 +189,8 @@ body {
     margin-left: 3px;
     box-sizing: border-box;
 }
-.header02 .h_btn_box .icon{
+
+.header02 .h_btn_box .icon {
     width: 100%;
 }
 
@@ -173,41 +203,50 @@ body {
     width: 100%;
     padding: 5px 0 8px;
     background-color: #fff;
-    box-shadow:0 -3px 10px rgba(20,25,30,0.05);
+    box-shadow: 0 -3px 10px rgba(20, 25, 30, 0.05);
     transition: all .3s ease-in;
 }
+
 .gnb_bottom .gnb_list {
     display: flex;
     justify-content: space-around;
 }
+
 .gnb_bottom .item {
     font-size: 10px;
     text-align: center;
     color: #333;
 }
+
 .gnb_bottom .item.active {
     color: #ff1759;
     font-weight: bold;
 }
+
 .gnb_bottom .icon {
     width: 24px;
     height: 24px;
     margin: 0 auto 3px;
 }
+
 .gnb_bottom .icon.normal {
     display: block;
 }
+
 .gnb_bottom .icon.active {
     display: none;
 }
+
 .gnb_bottom .item.active .icon.normal {
     display: none;
 }
+
 .gnb_bottom .item.active .icon.active {
     display: block;
 }
+
 /* gnb가리기 */
-.gnb_bottom.hide_gnb{
+.gnb_bottom.hide_gnb {
     bottom: -100%;
     box-shadow: none;
 }
@@ -218,9 +257,11 @@ body {
     padding-bottom: 50px;
     box-sizing: border-box;
 }
+
 .main01 {
     padding-top: 100px;
 }
+
 .main02 {
     padding-top: 50px;
 }
@@ -230,12 +271,14 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
 .pagination .page {
     display: inline-block;
     margin: 0;
     color: #414141;
 }
-.pagination .page a{
+
+.pagination .page a {
     display: inline-block;
     height: 24px;
     min-width: 24px;
@@ -244,12 +287,14 @@ body {
     line-height: 24px;
     font-size: 16px;
 }
+
 .pagination .page.active {
     background-color: #ff1759;
     color: #fff;
     border-radius: 20px;
     font-weight: bold;
 }
+
 /* txt_style */
 .txt_point {
     color: #ff1759;
