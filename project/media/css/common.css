@@ -104,8 +104,8 @@ body {
     float: left;
     width: 50px;
     margin-left: 5%;
-    background: url(../images/h_logo_icon.png) no-repeat left center;
-    background-size: 40px;
+    background: url(../images/h_logo_icon.svg) no-repeat left center;
+    background-size: 34px;
 }
 .header01.scroll_down .h_logo a {
     width: 100%;
@@ -182,7 +182,7 @@ body {
     color: #333;
 }
 .gnb_bottom .item.active {
-    color: #ea005e;
+    color: #ff1759;
     font-weight: bold;
 }
 .gnb_bottom .icon {
@@ -219,4 +219,30 @@ body {
 }
 .header02~.main {
     padding-top: 50px;
+}
+
+/* pagination */
+.pagination {
+    padding: 20px 0;
+    text-align: center;
+}
+.pagination .page {
+    display: inline-block;
+    margin: 0;
+    color: #414141;
+}
+.pagination .page a{
+    display: inline-block;
+    height: 24px;
+    min-width: 24px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-size: 16px;
+}
+.pagination .page.active {
+    background-color: #ff1759;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
 }

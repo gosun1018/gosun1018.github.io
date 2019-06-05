@@ -1,3 +1,4 @@
+// 댓글 입력 textarea
 var elCommentTextarea = document.getElementById('commentWrite')
 var clHasTxt = 'has_txt'
 

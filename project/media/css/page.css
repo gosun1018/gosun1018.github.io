@@ -31,7 +31,7 @@
 .cont_top01 .cont_num .num {
     font-size: 16px;
     font-weight: bold;
-    color: #ea005e;
+    color: #ff1759;
 }
 .cont_top01 .select_box {
     float: right;
@@ -67,7 +67,7 @@
 }
 .cont_top01 .select_list .item.active{
     font-weight: bold;
-    color: #ea005e;
+    color: #ff1759;
 }
 .cont_top01 .select_list a{
     display: inline-block;
@@ -203,9 +203,6 @@
     margin-bottom: 8%;
     border-bottom: 1px solid #ebebeb;
 }
-.post .post_heading_txt{
-    
-}
 .post_heading_txt .post_title{
     padding: 16px 5%;
     font-size: 20px;
@@ -221,7 +218,10 @@
     display: inline-block;
 }
 .post_info_box .info {
-    padding: 5px 10px;
+    display: inline-block;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
     font-size: 14px;
     color: #747474;
     border: 1px solid #ddd;
@@ -230,7 +230,7 @@
 }
 .post_info_box .icon {
     height: 16px;
-    vertical-align: middle;
+    vertical-align: sub;
 }
 .post_body {
     padding: 8% 5%;
@@ -294,7 +294,7 @@
 .post_comment_wrap .comments_num .num {
     font-size: 1.15em;
     font-weight: normal;
-    color: #ea005e;
+    color: #ff1759;
 }
 .post_comment_wrap .comment_list {
     border-bottom: 1px solid #ebebeb;
@@ -348,7 +348,7 @@
 }
 .comment .comment_heading .like .fa {
     font-size: 1.05em;
-    color: #ea005e;
+    color: #ff1759;
     vertical-align: middle;
 }
 .comment .comment_body {
@@ -365,7 +365,7 @@
     font-size: 10px;
     vertical-align: middle;
     border-radius: 3px;
-    background-color: #ea005e;
+    background-color: #ff1759;
     color: #fff;
 }
 .comment .comment_btn_box:after {
@@ -392,7 +392,7 @@
     border: 1px solid #ccc;
 }
 .comment .comment_btn_box .num {
-    color: #ea005e;
+    color: #ff1759;
 }
 .post_comment_wrap .comment_more {
     padding: 0 5%;
@@ -445,7 +445,7 @@
 }
 .comment_write .inp_write:focus {
     outline: none;
-    box-shadow: inset 0 0 5px rgba(234, 1, 94, 0.3);
+    box-shadow: inset 0 0 5px rgba(255, 22, 89, 0.5);
 }
 .comment_write .inp_write:focus,
 .comment_write .inp_write.has_txt {
@@ -458,7 +458,7 @@
     color: transparent;
 }
 .comment_write .inp_write.has_txt~.btn_comment_submit {
-    background-color: #ea005e;
+    background-color: #ff1759;
     color: #fff;
 }
 .post_bottom {
