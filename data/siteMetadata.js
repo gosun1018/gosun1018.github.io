@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: '블로그',
+  title: 'EunSeon',
   author: 'EunSeon',
   headerTitle: 'SEON',
   description: '블로그 블로그',
