@@ -17,8 +17,8 @@ github: https://github.com/gosun1018
 ------
 |기간|내용|
 |---|----|
-|2017. 08 ~ 2017. 12|웹퍼블리셔 전문가 과정(굿잡아카데미컴퓨터아트학원) 이수|
-|202012. 03 ~ 2017. 02|덕성여자대학교 서양화과 졸업|
+|2017. 08 ~ 2017. 12|웹퍼블리셔 전문가 과정 이수 (굿잡아카데미컴퓨터아트학원)|
+|2012. 03 ~ 2017. 02|덕성여자대학교 서양화과 졸업|
 
 🔧 Skills
 ------
@@ -27,7 +27,7 @@ github: https://github.com/gosun1018
 - Sass, SCSS 
 - 반응형/적응형 웹에 대한 경험이 있습니다.
 
-### javascript, jquery
+### javascript
 - dkdkd
 - dkddk
 
@@ -39,7 +39,6 @@ github: https://github.com/gosun1018
 - photoshop, illlustration
 - zeplin을 통한 디자이너와 협업   
 
-
 💻 Work Experience
 -------
 ### 하이애드원(2018.05~2020.12)
@@ -48,11 +47,3 @@ github: https://github.com/gosun1018
   - 자사 사이트 유지보수 및 리뉴얼 작업
   - 광고 랜딩페이지 제작 / 관리
   - 이벤트 페이지 퍼블리싱
-  
-Project
-------
-### name
-img  link 
-간단설명 등등등
-
-
