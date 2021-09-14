@@ -17,4 +17,4 @@ summary: 광고 랜딩페이지 반응형 퍼블리싱
 
 ----
 
-![McCoom](/static/images/McCoom.png)
+![McCoom](/static/images/mccoom.png)

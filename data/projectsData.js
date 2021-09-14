@@ -1,9 +1,15 @@
 const projectsData = [
   {
+    title: '댕구루',
+    description: `반려동물 맞춤 제품 플랫폼 댕구루 앱 데모페이지 제작`,
+    imgSrc: '/static/images/denguru-logo.png',
+    href: '/blog/projects/denguru',
+  },
+  {
     title: '아이엠컴즈',
     description: `아이엠컴즈 반응형 페이지 퍼블리싱`,
     imgSrc: '/static/images/imcomz_ci.jpg',
-    href: '/blog/project/imcomz',
+    href: '/blog/projects/imcomz',
   },
   {
     title: '비트이슈 리뉴얼',
